@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&family=Varela+Round&display=swap');
+
 /*
 Color Hex codes!!! 
 Magenta- #FF55BB
@@ -6,8 +8,56 @@ Yellow- #FCFFB2
 Light Blue- #B6EAFA
 */
 
-font-family: 'Send Flowers', cursive; /* Font for Project Sunshine header */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body{
+   background-color: #FCFFB2; 
+}
+.navbar a {
+    
+    font-weight: 500;
+    font-size: 16px;
+    color: #311c1a;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #B6EAFA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+}
+
+
+main{
+    margin-top: 200px;
+}
+
+main img{
+    height: 400px /*temp*/
+}
+
+p {
+    color: #311c1a;
+    font-size: 16px;
+}
 
 h1 {
     font-family: 'Send Flowers', cursive;
+    color: #311c1a;
 }
