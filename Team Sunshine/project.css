@@ -28,16 +28,39 @@ body{
 }
 
 header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
-    background: #B6EAFA;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: #B6EAFA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+header .logo img{
+  height: 50px;
+
+}
+
+header ul {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+header ul li {
+list-style: none;
+margin-left: 20px;
+}
+
+header ul li a {
+text-decoration: none;
+padding: 6px 15px;
+color: #FF55BB;
+}
+
 
 .logo img{
     height: 50px;
