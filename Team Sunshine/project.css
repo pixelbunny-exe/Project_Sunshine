@@ -101,3 +101,17 @@ h1 {
     font-family: 'Send Flowers', cursive;
     color: #311c1a;
 }
+
+/* Get Involved contact form */
+body {
+  font-family: monospace;
+  text-align: center;
+  padding: 2.5rem 2rem;
+}
+
+form {
+  display: inline-block;
+  float: none;
+  max-width: 500px;
+  margin: 0 auto;
+}
