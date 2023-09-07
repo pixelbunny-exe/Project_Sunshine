@@ -19,6 +19,7 @@ body{
    background-color: #FCFFB2; 
    margin: 40px;
    
+   
 }
 .navbar a {
     
@@ -46,28 +47,27 @@ header .logo img{
 
 }
 
-header {
-
-}
-
 header ul {
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 header ul li {
-list-style: none;
-margin-left: 20px;
-background-color: #FF55BB;
-padding: 10px;
-border-radius: 20px;
+  list-style: none;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #FF55BB;
+  
 }
 
 header ul li hover {
-text-decoration: none;
-padding: 6px 15px;
-background-color: #FFD3A3;
+  text-decoration: none;
+  padding: 6px 15px;
+  background-color: #FFD3A3;
+  
 }
 
 
@@ -76,16 +76,20 @@ background-color: #FFD3A3;
 }
 
 h1 {
-  text-decoration: none;
+  text-align: center;
 
+  margin-bottom: 40px;
+  background-color: #FFD3A3;
+  padding: 10px;
+  border-radius: 20px;
 }
 
 main{
-    margin-top: 200px;
+  margin-top: 200px;
 }
 
 main img{
-    height: 400px /*temp*/
+  height: 400px /*temp*/
 }
 
 p {
