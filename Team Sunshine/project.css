@@ -62,11 +62,41 @@ h1 {
     color: #311c1a;
 }
 
-/* Get Involved contact form START*/
-body {
-    font-family: Arial, Helvetica, sans-serif;
+/* Get involved page START*/
+.sectionwrap {
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 4px dotted #FF55BB;
 }
 
+.category {
+    break-inside: avoid;
+    background-color: #ff55bb17;
+    border: 2px solid #FF55BB;
+    border-radius: 2%;
+    padding: 10px;
+    margin: 0 0 1em 0;
+}
+
+.contact {
+    max-width: 820px;
+    width: 90%;
+    margin: 100px 150px;
+    background-color:;     
+}
+
+.contact p {
+}
+
+.icon {
+    display: flex;
+    margin: auto;
+    height: 70px;
+    filter: invert(72%) sepia(66%) saturate(6215%) hue-rotate(298deg) brightness(105%) contrast(101%);
+}
+/* Get involved page END*/
+
+/* Contact form START*/
 .container {
     max-width: 400px;
     margin: 0 auto;
@@ -104,5 +134,6 @@ body {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+
 }
-/* Get Involved contact form END */
+/* Contact form END */
