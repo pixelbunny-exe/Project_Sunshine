@@ -78,17 +78,17 @@ h1 {
     margin: 0 0 1em 0;
 }
 
-.contact {
-    margin: auto;
-    width: 85%;
-    padding: 140px;
-}
-
 .contactWrap {
     background-color: #ff55bb17;
     border: 2px solid #FF55BB;
     border-radius: 2%;
     padding: 10px;
+}
+
+.contact {
+    margin: auto;
+    width: 85%;
+    padding: 125px;
 }
 
 .icon {
