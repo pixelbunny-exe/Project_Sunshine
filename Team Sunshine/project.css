@@ -79,12 +79,16 @@ h1 {
 }
 
 .contact {
-    max-width: 820px;
-    width: 90%;
-    margin: 100px 150px;
+    margin: auto;
+    width: 85%;
+    padding: 140px;
 }
 
-.contact p {
+.contactWrap {
+    background-color: #ff55bb17;
+    border: 2px solid #FF55BB;
+    border-radius: 2%;
+    padding: 10px;
 }
 
 .icon {
