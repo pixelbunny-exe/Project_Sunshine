@@ -62,16 +62,47 @@ h1 {
     color: #311c1a;
 }
 
-/* Get Involved contact form */
+/* Get Involved contact form START*/
 body {
-  font-family: monospace;
-  text-align: center;
-  padding: 2.5rem 2rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-form {
-  display: inline-block;
-  float: none;
-  max-width: 500px;
-  margin: 0 auto;
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFD3A3;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"], 
+.form-group input[type="email"], 
+.form-group input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #FF55BB;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* Get Involved contact form END */
