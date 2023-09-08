@@ -28,29 +28,73 @@
     </header>    
 
     <main>
-        <div class="heading">
-            <h1> Project Sunshine </h1>
-        </div>
+        <!--<div class="heading">
+            <h1>Project Sunshine</h1>
+        </div> -->
 
-        <section>
-            <h3> Partnerships </h3>
-            <h3> Volunteers </h3>
-            <h3> Donations </h3>
+    <div class="sectionwrap">  
+        <section class="category">
+            <h3>Volunteers</h3><br>
+            <p>We boast a diverse range of volunteer programs, catering to different age groups and interests. College Volunteers, with over 75 chapters across the United States, trace their roots to a single college student's initiative. Community Volunteers, aged 18 and older, connect with local communities while delivering essential programs to children and families. Lastly, Kids and Families Volunteers offer school-aged children and teens the opportunity to volunteer beyond hospital walls, instilling crucial leadership skills and a strong sense of giving back to their communities.</p>
 
-            <p> ... </p>
+            <br><img class="icon" src="/Team Sunshine/images/help.png" alt="help">
         </section>
 
-        <form>
-            <label for="name">Your Name:</label><br>
-            <input type="text" id="name" name="name"><br>
+        <section class="category">   
+            <h3>Partnerships</h3><br>
+            <p>We operate in two key areas: partnering with nonprofit organizations and collaborating with medical facilities to provide crucial psychological and emotional support to children and families. In our nonprofit partnerships, we work with mission-aligned organizations, offering adaptable programs facilitated by trained volunteers through TelePlay, ensuring privacy and inclusivity for children facing medical challenges. These exclusive sessions can be customized by partner organizations and integrated with support groups. In medical facility partnerships, we collaborate with healthcare professionals to deliver psychological support through TelePlay, In-Person Volunteering, and Activity Kits, all provided at no cost to partner hospitals. Overall, our vast volunteer network and versatile programs aim to foster a positive and supportive environment for children and families navigating medical challenges, whether through nonprofit partnerships or medical facility collaborations.</p>
+
+            <br><img class="icon" src="/Team Sunshine/images/partnership.png" alt="partnership">
+        </section>
+
+        <section class="category">
+            <h3>Donations</h3><br>
+            <p>Our organization offers a variety of donation options for individuals and companies to support pediatric patients. You can donate appreciated stocks, bonds, or mutual funds with tax-deductible benefits and the possibility of employee matching for added impact. We also collaborate with Institutional partners and foundations to advance our mission. For those looking for deeper involvement, becoming a sponsor for our annual fundraisers like the spring Gala and fall Golf Classic provides opportunities for individuals and companies to make a meaningful difference. Additionally, individuals can leave a lasting legacy through planned giving, such as including us in their wills or trusts, ensuring support for future generations of children in need. These options cater to various ways individuals and organizations can contribute to brightening the lives of pediatric patients.</p>
             
-            <label for="email">Your Email:</label><br>
-            <input type="text" id="email" name="email"><br>
+            <br><img class="icon" src="/Team Sunshine/images/heart.png" alt="heart">
+        </section>    
+    </div>  
+
+        <section class="contact">
+            <div class="contactWrap">
+            <h2>Contact Information</h2>
+            <p>Project Sunshine<br>
+            211 East 43rd Street, Suite 401<br>
+            New York, NY 10017</p>
             
-            <label for="number">Your Phone Number:</label><br>
-            <input type="text" id="number" name="number">
-            <input type="submit" value="Submit">
-        </form>        
+            <p>Phone: (212) 354-8035<br>
+            Fax: (212) 354-8052<br>
+            Email: info@projectsunshine.org</p><br>
+
+            <h2>Whistleblower Policy</h2>
+            <p>Any person wishing to contact the audit committee of the board of Project Sunshine, in confidence, regarding accounting, internal control, auditing, governance or any matters related to the operations of Project Sunshine may send an e-mail message to projectsunshine.auditcommittee@gmail.com. Only members of the audit committee, who are independent of the management of Project Sunshine, have access to this e-mail account.</p>
+            </div>
+        </section>
+
+        <div class="container">
+            <h2>Let's Work Together!</h2><br>
+            <form action="" method="post">
+                <div class="form-group">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="first_name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="last_name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>      
 
     </main>
 
