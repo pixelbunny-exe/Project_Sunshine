@@ -8,6 +8,8 @@ Yellow- #FCFFB2
 Light Blue- #B6EAFA
 */
 
+/* General coding styles start */
+
 * {
     margin: 0;
     padding: 0;
@@ -17,17 +19,21 @@ Light Blue- #B6EAFA
 
 body{
    background-color: #FCFFB2; 
-   margin: 40px;
-   
+   color: #4D312F;
    
 }
+/* General coding styles end */
+
+/* Navbar starts */
 .navbar a {
-    
-    font-weight: 500;
-    font-size: 16px;
-    color: #311c1a;
-    text-decoration: none;
-    margin-left: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #4D312F;
+  text-decoration: none;
+  margin-left: 40px;
+  padding: 6px 15px; 
+  border-radius: 20px; 
+  transition: background-color 0.3s, color 0.3s; 
 }
 
 header {
@@ -42,9 +48,8 @@ header {
   align-items: center;
 }
 
-header .logo img{
+header .logo img {
   height: 50px;
-
 }
 
 header ul {
@@ -52,54 +57,111 @@ header ul {
   justify-content: center;
   align-items: center;
   text-align: center;
+  list-style: none;
 }
 
 header ul li {
-  list-style: none;
   margin-left: 20px;
-  padding: 10px;
-  border-radius: 20px;
+}
+
+header ul li a:hover {
   background-color: #FF55BB;
-  
+  color: #fff;
 }
+/* Navbar End */
 
-header ul li hover {
-  text-decoration: none;
-  padding: 6px 15px;
-  background-color: #FFD3A3;
-  
+/* Blank space */
+.blank-space {
+  height: 100px;
 }
-
-
-.logo img{
-    height: 50px;
-}
+/* Blank space end */
 
 h1 {
   text-align: center;
-
   margin-bottom: 40px;
   background-color: #FFD3A3;
   padding: 10px;
   border-radius: 20px;
+  font-size: 28px;
 }
 
 main{
-  margin-top: 200px;
+  padding: 00px 40px 20px 40px;
 }
 
 main img{
-  height: 400px /*temp*/
+ width: 100%;
+}
+
+.mission p{
+  max-width: 500px;
+}
+
+.home main{
+  margin-top: -100px;
+}
+
+.hero {
+  margin-top: 75px;
+  background-color: #B6EAFA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding: 40px;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hero-text {
+  font-family: 'Send Flowers', cursive;
+  color: #4D312F;
+  font-size: 44px; 
+  margin: 0;
+  width: 40%;
+  text-align: center;
+}
+
+.hero img{
+  min-width: 50%;
+}
+
+.sectionwraphome{
+  column-count: 2;
+  column-gap: 50px;
 }
 
 p {
-    color: #311c1a;
+    color: #4D312F;
     font-size: 16px;
 }
 
 h1 {
     font-family: 'Send Flowers', cursive;
-    color: #311c1a;
+    color: #4D312F;
+    margin-top: 10%;
+}
+
+.cta-button {
+  background-color: #FF55BB;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  
+}
+
+.center {
+  text-align: center;
+  margin-top: 60px;
 }
 
 /* Get involved page START*/
@@ -179,3 +241,11 @@ h1 {
     font-size: 16px;
 }
 /* Contact form END */
+
+/* Footer */
+
+footer{
+  padding: 40px;
+  background-color: #FFD3A3;
+}
+/* Footer */
