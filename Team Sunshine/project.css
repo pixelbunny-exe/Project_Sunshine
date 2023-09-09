@@ -247,5 +247,77 @@ h1 {
 footer{
   padding: 40px;
   background-color: #FFD3A3;
+  text-align: center;
 }
 /* Footer */
+
+/* About Page */
+
+h3{
+  font-family: 'Send Flowers', cursive;
+  text-align: center;
+  margin-bottom: 40px;
+  background-color: #FFD3A3;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 28px;
+}
+
+#WhatWeDo{
+  break-inside: avoid;
+    background-color: #ff55bb17;
+    border: 2px solid #FF55BB;
+    border-radius: 2%;
+    padding: 10px;
+    margin: 0 0 1em 0;
+}
+#OurImpact{
+  break-inside: avoid;
+    background-color: #ff55bb17;
+    border: 2px solid #FF55BB;
+    border-radius: 2%;
+    padding: 10px;
+    margin: 0 0 1em 0;
+}
+#InternationalPrograms{
+  break-inside: avoid;
+    background-color: #ff55bb17;
+    border: 2px solid #FF55BB;
+    border-radius: 2%;
+    padding: 10px;
+    margin: 0 0 1em 0;
+}
+.sectionwrap2 {
+  row-gap: 35px;
+  
+}
+.AboutLinks {
+  text-align: center;
+  font-family: 'Send Flowers', cursive;
+  color: #4D312F;
+  display: block;
+  margin-bottom: 40px;
+  background-color: #FFD3A3;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.AboutLinks:hover {
+  background-color: #FF55BB; 
+  color: #fff;
+}
+/*hr{
+  position: absolute;
+  top: 551px; 
+  left: 50px; 
+  width: 200px;
+  border: none;
+  border-top:5px dotted #FF55BB;
+}*/
+  
+
+.AboutMain{
+  margin-top: 160px;
+}
